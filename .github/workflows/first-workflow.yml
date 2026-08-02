@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: first-step
-        run: echo "Hello World"
-      - name: second-step
-        run: echo "This is the second step"
+        run: |
+          echo "Hello World"
+          echo "This is my first workflow"
